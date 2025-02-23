@@ -17,7 +17,7 @@ function sleep(ms) {
 
 const startGame =()=>{
     $("#canvas").html("");
-    $("#canvas").css("cursor","url('gungame\shoot.png'), auto");
+    $("#canvas").css("cursor","url('shoot.png'), auto");
     $("#canvas").unbind("click");
     gamePlay = true;
     showStarterBallon();
